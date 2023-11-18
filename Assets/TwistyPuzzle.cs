@@ -10,7 +10,7 @@ public class TwistyPuzzle
     public bool runningFlag = false, direction_selected = false;
 
     protected float Angle = 0f, rightAngle;
-    public float speed = 30f;
+    public float speed = 15f;
     protected Vector3 Rotation_Axis, Rotation_Sign, Center;
     public int shape { get; set; }
     public int size { get; set; }
